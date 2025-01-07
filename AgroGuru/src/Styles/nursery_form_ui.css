@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#nursery_page{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../public/assets/nursery_form_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* padding-bottom: 1.9rem; */
+}
+
+#nur_back{
+    background: transparent;
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    /* height: fit-content; */
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+}
+
+#nur_form_cnt{
+    margin-top: 6.5rem;
+    width: 40%;
+    height: fit-content;
+    box-shadow: 0 0 100px 10px;
+    border-radius: 50px;
+    font-family: 'poppins',sans-serif;
+    border-radius: 50px;
+    /* box-shadow: 0 0 10px -5px rgb(202, 202, 202); */
+
+}
+#nur_form_back{
+    width: 100%;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background: transparent;
+    background: rgba(145, 184, 165, 0.4);
+    border-radius: 50px;
+}
+
+#nur_form{
+   
+    width: 100%;
+    display: grid;
+    justify-items: baseline;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nur_form_cnt h2{
+    font-weight: 700;
+    padding: 2rem 0;
+    font-size: 2.7rem;
+     color: #ffffff;
+}
+#nur_form_cnt input,#nur_form_cnt   #lfbtn button{
+    width: 29rem;
+    height: 2.3rem;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    color: #6c6c6c;
+}
+.attri{
+    padding-bottom: 1rem;
+}
+#nur_form ::placeholder {
+    color: rgb(232, 232, 232);
+    opacity: .6; 
+  }
+#nur_times{
+    display: flex;
+    gap: 1rem;
+   
+}
+#nur_in_time,#nur_out_time{
+    padding-right: .5rem;
+}
+#nur_times input{
+    width:6.5rem;
+}
+#nur_form_cnt label{
+    padding-left: .5rem;
+    font-weight: 500;
+    color: #ffffff;
+}
+#nur_form_cnt input{
+    padding-left: 1rem;
+    background: rgba(224, 224, 224, 0.4);
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 1rem 
+    
+
+}
+#nur_form_cnt  #lfbtn button{
+    margin-bottom: 4rem;
+    margin-top: 1rem;
+    background: rgba(224, 224, 224, 0.4);
+    box-shadow: 0 0 10px -2px black;
+
+}
+#nur_form_cnt  #lfbtn button:hover{
+    background: transparent;
+    color: white;
+}
+#nur_form_cnt p{
+    padding-top: 0;
+    padding-left: 1rem;
+    margin: 0;
+    font-size: .8rem;
+}
+#nur_img_in{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: .2rem;
+
+}
+/* new form  */
+#main_sec{
+    width: 50%;
+    height: 10rem;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 5rem 25rem;
+}
+
+.err{
+   background-color: #6c6c6c;
+}
+
